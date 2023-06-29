@@ -31,11 +31,11 @@ btnEl.addEventListener("click", function(){
    let poundsCalc = inputNum / 2.284
 
    
-metersEl.innerHTML = `${numberInput.value} Feet = ${feetCalc.toFixed(1)} & ${numberInput.value} Meters = ${metersCalc.toFixed(1)}   `
+metersEl.innerHTML = `${numberInput.value} Feet = ${feetCalc.toFixed(1)} Meters & ${numberInput.value} Meters = ${metersCalc.toFixed(1)} Feet  `
 
-volumeEl.innerHTML = `${numberInput.value} Liters = ${litersCalc.toFixed(1)} & ${numberInput.value} Gallon = ${gallonCalc.toFixed(1)}   `
+volumeEl.innerHTML = `${numberInput.value} Liters = ${litersCalc.toFixed(1)} Gallons & ${numberInput.value} Gallons = ${gallonCalc.toFixed(1)} Liters  `
 
-massEl.innerHTML = `${numberInput.value} Kilo's = ${kiloCalc.toFixed(1)} & ${numberInput.value} Pounds = ${poundsCalc.toFixed(1)}   `
+massEl.innerHTML = `${numberInput.value} Kilo's = ${kiloCalc.toFixed(1)} Pounds & ${numberInput.value} Pounds = ${poundsCalc.toFixed(1)} Kilos  `
 
 numberInput.value = ""
    console.log(litersCalc, gallonCalc)
